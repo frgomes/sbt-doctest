@@ -9,7 +9,7 @@ val versions = new {
 
 lazy val root = (project in file(".")).settings(
   sbtPlugin := true,
-  crossSbtVersions := Vector("0.13.16", "1.0.0"),
+  crossSbtVersions := Vector("0.13.16", "1.0.0", "1.0.1"),
   organization := "com.github.tkawachi",
   name := "sbt-doctest",
   licenses := Seq("MIT" -> url("http://opensource.org/licenses/MIT")),
